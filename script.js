@@ -26,3 +26,9 @@ function squareSum(numbers) {
   }
   return sum;
 }
+//or this way
+function squareSum(numbers) {
+  return numbers.reduce(function (sum, n) {
+    return n * n + sum;
+  }, 0);
+}
