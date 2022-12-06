@@ -75,3 +75,7 @@ function noSpace(x) {
 function solution(str) {
   return str.split("").reverse().join("");
 }
+//Binary Addition
+function addBinary(a, b) {
+  return (a + b).toString(2);
+}
