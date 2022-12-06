@@ -67,3 +67,7 @@ class SmallestIntegerFinder {
 function longest(s1, s2) {
   return [...new Set(s1 + s2)].sort().join("");
 }
+//Remove String Spaces
+function noSpace(x) {
+  return x.split(" ").join("");
+}
