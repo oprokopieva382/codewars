@@ -36,3 +36,20 @@ function squareSum(numbers) {
 function findNeedle(haystack) {
   return "found the needle at position " + haystack.indexOf("needle");
 }
+//Convert a Boolean to a String
+function booleanToString(b) {
+  return b.toString();
+}
+//Convert a string to an array
+function stringToArray(string) {
+  let array = string.split(" ");
+  return array;
+}
+//If you can't sleep, just count sheep!!
+var countSheep = function (num) {
+  let sheep = "";
+  for (i = 1; i <= num; i++) {
+    sheep += i + " sheep...";
+  }
+  return sheep;
+};
