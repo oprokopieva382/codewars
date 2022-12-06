@@ -57,3 +57,9 @@ var countSheep = function (num) {
 function filter_list(l) {
   return l.filter((str) => typeof str != "string");
 }
+// Find the smallest integer in the array
+class SmallestIntegerFinder {
+  findSmallestInt(args) {
+    return Math.min(...args);
+  }
+}
