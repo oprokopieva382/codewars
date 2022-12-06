@@ -71,3 +71,7 @@ function longest(s1, s2) {
 function noSpace(x) {
   return x.split(" ").join("");
 }
+//Reversed Strings
+function solution(str) {
+  return str.split("").reverse().join("");
+}
