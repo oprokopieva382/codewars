@@ -91,3 +91,7 @@ var summation = function (num) {
 function validatePIN(pin) {
   return /^(\d{6}|\d{4})$/.test(pin);
 }
+//Shortest Word
+function findShort(s) {
+  return Math.min(...s.split(" ").map((s) => s.length));
+}
