@@ -87,3 +87,7 @@ var summation = function (num) {
   }
   return sum;
 };
+//Regex validate PIN code
+function validatePIN(pin) {
+  return /^(\d{6}|\d{4})$/.test(pin);
+}
