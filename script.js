@@ -95,3 +95,7 @@ function validatePIN(pin) {
 function findShort(s) {
   return Math.min(...s.split(" ").map((s) => s.length));
 }
+//Beginner - Lost Without a Map
+function maps(x) {
+  return x.map((n) => n * 2);
+}
