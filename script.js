@@ -103,3 +103,9 @@ function maps(x) {
 function reverseWords(str) {
   return str.split("").reverse().join("").split(" ").reverse().join(" ");
 }
+// Friend or Foe?
+function friend(friends) {
+  return friends.filter(function (item) {
+    return item.length === 4;
+  });
+}
