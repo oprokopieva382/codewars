@@ -99,3 +99,7 @@ function findShort(s) {
 function maps(x) {
   return x.map((n) => n * 2);
 }
+//Reverse words
+function reverseWords(str) {
+  return str.split("").reverse().join("").split(" ").reverse().join(" ");
+}
