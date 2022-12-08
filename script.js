@@ -162,3 +162,9 @@ function areYouPlayingBanjo(name) {
 //Sum of positive
 const positiveSum = (arr) =>
   arr.reduce((prevVal, curr) => (curr > 0 ? prevVal + curr : prevVal), 0);
+//Keep up the hoop
+function hoopCount(n) {
+  return n >= 10
+    ? "Great, now move on to tricks"
+    : "Keep at it until you get it";
+}
