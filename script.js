@@ -159,3 +159,6 @@ function areYouPlayingBanjo(name) {
     " banjo"
   );
 }
+//Sum of positive
+const positiveSum = (arr) =>
+  arr.reduce((prevVal, curr) => (curr > 0 ? prevVal + curr : prevVal), 0);
