@@ -168,3 +168,7 @@ function hoopCount(n) {
     ? "Great, now move on to tricks"
     : "Keep at it until you get it";
 }
+//Is this a triangle?
+function isTriangle(a, b, c) {
+  return a + b > c && b + c > a && c + a > b ? true : false;
+}
