@@ -151,3 +151,11 @@ function basicOp(operation, value1, value2) {
 function sumMix(arr) {
   return arr.reduce((prevVal, curr) => +curr + prevVal, 0);
 }
+//Are You Playing Banjo?
+function areYouPlayingBanjo(name) {
+  return (
+    name +
+    (name[0].toLowerCase() === "r" ? " plays" : " does not play") +
+    " banjo"
+  );
+}
