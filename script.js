@@ -172,3 +172,15 @@ function hoopCount(n) {
 function isTriangle(a, b, c) {
   return a + b > c && b + c > a && c + a > b ? true : false;
 }
+//L1: Set Alarm
+function setAlarm(employed, vacation) {
+  if (employed === true && vacation === false) {
+    return true;
+  } else if (vacation === true && employed === false) {
+    return false;
+  } else if (employed === false && vacation === false) {
+    return false;
+  } else if (employed === true && vacation === true) {
+    return false;
+  }
+}
