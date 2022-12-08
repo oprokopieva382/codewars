@@ -113,3 +113,11 @@ function friend(friends) {
 function digitize(n) {
   return Array.from(String(n), Number).reverse();
 }
+//Exes and Ohs
+function XO(str) {
+  let arr = str.toLowerCase().split("");
+  return (
+    arr.filter((elem) => elem == "x").length ==
+    arr.filter((elem) => elem == "o").length
+  );
+}
