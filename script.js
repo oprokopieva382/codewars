@@ -129,3 +129,9 @@ function doubleChar(str) {
   }
   return newStr;
 }
+//faster option
+const doubleChar = (str) =>
+  str
+    .split("")
+    .map((c) => c + c)
+    .join("");
