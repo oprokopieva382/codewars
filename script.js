@@ -147,3 +147,7 @@ function basicOp(operation, value1, value2) {
     ? value1 / value2
     : "Wrong Operation";
 }
+//Sum Mixed Array
+function sumMix(arr) {
+  return arr.reduce((prevVal, curr) => +curr + prevVal, 0);
+}
