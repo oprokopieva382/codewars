@@ -19,3 +19,9 @@ function sumTwoSmallestNumbers(numbers) {
 function removeExclamationMarks(s) {
   return s.split("!").join("");
 }
+//Volume of a Cuboid
+class Kata {
+  static getVolumeOfCuboid(length, width, height) {
+    return length * width * height;
+  }
+}
