@@ -10,3 +10,8 @@ function greet(name, owner) {
 function makeNegative(num) {
   return num <= 0 ? num : num * -1;
 }
+//Sum of two lowest positive integers
+function sumTwoSmallestNumbers(numbers) {
+  let arr = numbers.sort((a, b) => a - b);
+  return arr[0] + arr[1];
+}
