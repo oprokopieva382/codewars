@@ -15,3 +15,7 @@ function sumTwoSmallestNumbers(numbers) {
   let arr = numbers.sort((a, b) => a - b);
   return arr[0] + arr[1];
 }
+//Remove exclamation marks
+function removeExclamationMarks(s) {
+  return s.replace(/!+$/, "");
+}
