@@ -17,5 +17,5 @@ function sumTwoSmallestNumbers(numbers) {
 }
 //Remove exclamation marks
 function removeExclamationMarks(s) {
-  return s.replace(/!+$/, "");
+  return s.split("!").join("");
 }
