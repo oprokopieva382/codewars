@@ -6,3 +6,7 @@ function paperwork(n, m) {
 function greet(name, owner) {
   return name === owner ? "Hello boss" : "Hello guest";
 }
+//Return Negative
+function makeNegative(num) {
+  return num <= 0 ? num : num * -1;
+}
