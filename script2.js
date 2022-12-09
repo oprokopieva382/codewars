@@ -29,3 +29,14 @@ class Kata {
 function minMax(arr) {
   return [Math.min(...arr), Math.max(...arr)];
 }
+//Calculate BMI
+function bmi(weight, height) {
+  let resultBMI = weight / (height * height);
+  return resultBMI <= 18.5
+    ? "Underweight"
+    : resultBMI <= 25.0
+    ? "Normal"
+    : resultBMI <= 30.0
+    ? "Overweight"
+    : "Obese";
+}
