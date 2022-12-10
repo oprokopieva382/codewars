@@ -21,3 +21,7 @@ function getGrade(s1, s2, s3) {
 function removeChar(str) {
   return str.split("").slice(1, -1).join("");
 }
+//or
+function removeChar(str) {
+  return str.slice(1, -1);
+}
