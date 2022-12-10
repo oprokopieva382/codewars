@@ -13,3 +13,8 @@ function countPositivesSumNegatives(input) {
   }
   return array;
 }
+//Find the stray number
+function stray(numbers) {
+  let sortedN = numbers.sort();
+  return sortedN[0] !== sortedN[1] ? sortedN[0] : sortedN[sortedN.length - 1];
+}
